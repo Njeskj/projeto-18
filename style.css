@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+    /* background-color: grey; */
+}
+
+.logo {
+    width: 250px;
+    height: 50px;
+}
+
+nav li {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    margin: 5px 10px;
+}
+
+.menu a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+.menu a:active {
+    color: red;
+    text-decoration:line-through;
+}
+
+.product2 {
+    text-align:center;
+}
+
+
+
+
+
+
